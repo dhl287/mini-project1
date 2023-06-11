@@ -1,48 +1,107 @@
-
-#name{
-color: white;
-font-weight: bolder;
-}
-
 *{
-background-color: gray;
-font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.lesson{
-background-color: yellow;
-font-family: Arial, Helvetica, sans-serif;
-width: 100%;
-height: 100px;
-line-height: 50px;
-position: fixed;
-display: inline;
-list-style-type: none;
-
-}
-
-.lesson2{
-    text-align: center;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
     }
 
-#navigation{
-display: inline;
-position: fixed;
-line-height: 50px;
+ul{
+    text-align: right;
+    background-color: yellow;
+}
 
-img {
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
-    /* Margin property */
+li{
+    background: yellow;
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
     margin: 20px;
-    /* Padding property */
-    padding: 20px;
-    /* Border property */
-    border: 9px solid darkblue;
-  }
-  
+    color: black;
+    
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin: 0;
+    border-top: 0 auto;
+    border-bottom: 5px solid green;
+    padding-top: 0;
+    display: block;
 
 }
+
+img{
+    border: 10px solid greenyellow;
+    outline: brown solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    width: auto;
+    border: 3px solid #73AD21;
+
+
+}
+
+#description{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#name{
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    right: 0;
+    width: 100%;
+
+}
+
+footer{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 5px solid green;
+    padding-top: 0;
+    position: relative;
+    top: 150px;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+
+h6{
+    background-color: yellow;
+    text-align: center;
+}
+
+#link1{
+    a:hover{
+        color: pink;
+    } 
+
+}
+
+#description{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+
+}
+
