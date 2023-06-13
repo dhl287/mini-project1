@@ -90,12 +90,6 @@ h6{
     text-align: center;
 }
 
-#link1{
-    a:hover{
-        color: pink;
-    } 
-
-}
 
 #description{
     text-align: center;
@@ -105,3 +99,9 @@ h6{
 
 }
 
+.banana{
+    width: 45vw;
+    height: 25dvh;
+    background-color: blueviolet;
+    border: 2px yellow solid;
+}
